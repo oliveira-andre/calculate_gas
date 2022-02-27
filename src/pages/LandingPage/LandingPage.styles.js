@@ -9,4 +9,10 @@ const Wallpaper = styled.div`
   background: url(${WallpaperSrc});
 `;
 
-export { Wallpaper };
+const Centerize = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;
+
+export { Wallpaper, Centerize };
